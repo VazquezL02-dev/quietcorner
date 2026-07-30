@@ -1,4 +1,4 @@
-# Quiet Corner — Simple Version
+# Quiet Corner — Simple Version v0.3
 
 This version works like Author Academy:
 
@@ -21,7 +21,7 @@ The shared Supabase URL and publishable key are already included.
 
 ## Included activities
 
-- Colour by Number
+- Colour by Number library with 24 pictures across Nature, Australian, Animals, Space, Food and Seasons
 - Australian Animals Word Search
 - Personal Sketchbook
 - Student profile selector
