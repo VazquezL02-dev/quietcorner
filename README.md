@@ -1,26 +1,29 @@
-# Quiet Corner v0.1
+# Quiet Corner — Simple Version
 
-A calm five-minute activity app for primary students.
+This version works like Author Academy:
 
-## Included
-- Student profile selector using the shared `students` table
-- Cosy activity room
-- Colour by Number
-- Word Search
-- Sketchbook
-- Automatic progress saving
-- Continue buttons for unfinished activities
-- Gentle five-minute timer
-- No scores, streaks or wellbeing tracking
+- no VS Code setup required
+- no Node installation
+- no `.env` file
+- one self-contained `index.html`
+- upload directly to GitHub and deploy with Vercel
 
 ## Setup
-1. Run the SQL in `supabase/quiet_corner_progress.sql` in the Supabase SQL editor.
-2. Copy `.env.example` to `.env`.
-3. Run:
-   npm install
-   npm run dev
-4. Push to GitHub and deploy to Vercel as a Vite project.
 
-## Notes
-The app reads students from the existing `students` table. It uses a new
-`quiet_corner_progress` table only to remember each student's activity state.
+1. Open Supabase.
+2. Open the SQL Editor.
+3. Copy and run everything in `setup.sql`.
+4. Create a new GitHub repository called `quiet-corner`.
+5. Upload all five files from this folder.
+6. Import the repository into Vercel and deploy.
+
+The shared Supabase URL and publishable key are already included.
+
+## Included activities
+
+- Colour by Number
+- Australian Animals Word Search
+- Personal Sketchbook
+- Student profile selector
+- Automatic progress saving
+- Five-minute visual timer
