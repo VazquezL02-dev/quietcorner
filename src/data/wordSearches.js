@@ -1,0 +1,36 @@
+export const wordSearches = [
+  {
+    id: 'australian-animals',
+    title: 'Australian Animals',
+    words: ['KOALA', 'DINGO', 'WOMBAT', 'EMU', 'QUOKKA', 'POSSUM'],
+    grid: [
+      'K O A L A T R E E S',
+      'D I N G O S A N D X',
+      'W O M B A T R A I N',
+      'E M U F O R E S T S',
+      'Q U O K K A B U S H',
+      'P O S S U M C A L M',
+      'L E A V E S W A T E',
+      'B I R D S K Y S U N',
+      'R I V E R S T O N E',
+      'G R A S S W I N D Y',
+    ].map(row => row.split(' ')),
+  },
+  {
+    id: 'ocean',
+    title: 'Ocean',
+    words: ['WHALE', 'SHARK', 'CORAL', 'SHELL', 'WAVES', 'TURTLE'],
+    grid: [
+      'W H A L E B L U E S',
+      'S H A R K O C E A N',
+      'C O R A L R E E F S',
+      'S H E L L S A N D Y',
+      'W A V E S B R E E Z',
+      'T U R T L E S W I M',
+      'F I S H C A L M S E',
+      'D O L P H I N S U N',
+      'S E A W E E D D E E',
+      'P E A R L S T I D E',
+    ].map(row => row.split(' ')),
+  },
+]
